@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuestLearn | Gamified Learning Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-gamepad"></i>
+                <span class="logo-text">Quest<span class="logo-highlight">Learn</span></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                <li><a href="#subjects" class="nav-link">Subjects</a></li>
+                <li><a href="#leaderboard" class="nav-link">Leaderboard</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+            </ul>
+            <div class="nav-user">
+                <div class="user-avatar">
+                    <i class="fas fa-user-astronaut"></i>
+                    <span class="user-level">Lv. <span id="user-level-display">1</span></span>
+                </div>
+                <div class="user-info">
+                    <span class="user-name" id="username-display">Learner</span>
+                    <div class="user-xp">
+                        <div class="xp-bar">
+                            <div class="xp-progress" id="xp-progress-bar"></div>
+                        </div>
+                        <span class="xp-text"><span id="current-xp">0</span>/<span id="max-xp">100</span> XP</span>
+                    </div>
+                </div>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">🎮 Level Up Your Learning</div>
+                <h1 class="hero-title">Learn Like You're <span class="text-gradient">Playing</span> A Game</h1>
+                <p class="hero-description">QuestLearn transforms education into an epic adventure. Earn XP, unlock achievements, climb leaderboards, and master subjects through gamified challenges.</p>
+                <div class="hero-cta">
+                    <button class="btn-primary" id="start-learning-btn">
+                        <i class="fas fa-play-circle"></i> Start Learning Journey
+                    </button>
+                    <button class="btn-secondary" id="explore-subjects-btn">
+                        <i class="fas fa-compass"></i> Explore Subjects
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-learners">12,847</div>
+                        <div class="stat-label">Active Learners</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-questions">58,632</div>
+                        <div class="stat-label">Questions Mastered</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="total-xp-earned">2.1M</div>
+                        <div class="stat-label">Total XP Earned</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-icon"><i class="fas fa-crown"></i></div>
+                    <div class="card-title">Top Rank</div>
+                    <div class="card-value">Legend</div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-icon"><i class="fas fa-fire"></i></div>
+                    <div class="card-title">Current Streak</div>
+                    <div class="card-value">7 Days</div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="card-title">Badges</div>
+                    <div class="card-value">24</div>
+                </div>
+                <div class="main-visual">
+                    <div class="visual-container">
+                        <div class="level-circle">
+                            <div class="level-inner">
+                                <span class="level-number">5</span>
+                                <span class="level-text">Level</span>
+                            </div>
+                        </div>
+                        <div class="visual-xp">
+                            <div class="xp-tag">+150 XP</div>
+                            <div class="xp-tag">+100 XP</div>
+                            <div class="xp-tag">+200 XP</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Section -->
+    <section class="dashboard-section" id="dashboard">
+        <div class="section-header">
+            <h2 class="section-title">Your <span class="text-gradient">Learning Dashboard</span></h2>
+            <p class="section-subtitle">Track your progress, achievements, and learning statistics</p>
+        </div>
+        <div class="dashboard-container">
+            <div class="dashboard-grid">
+                <!-- Stats Overview -->
+                <div class="dashboard-card wide-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Learning Stats</h3>
+                        <div class="card-badge">Live</div>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="total-points">0</div>
+                                <div class="stat-label">Total Points</div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="rank-display">Beginner</div>
+                                <div class="stat-label">Current Rank</div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="streak-display">0</div>
+                                <div class="stat-label">Day Streak</div>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-value" id="learning-time">0</div>
+                                <div class="stat-label">Hours Learned</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Progress Overview -->
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Subject Progress</h3>
+                    </div>
+                    <div class="progress-list">
+                        <div class="progress-item">
+                            <div class="progress-subject">
+                                <div class="subject-icon">
+                                    <i class="fas fa-laptop-code"></i>
+                                </div>
+                                <span class="subject-name">Computer Science</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-progress="65" id="cs-progress"></div>
+                            </div>
+                            <span class="progress-value">65%</span>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-subject">
+                                <div class="subject-icon">
+                                    <i class="fas fa-calculator"></i>
+                                </div>
+                                <span class="subject-name">Mathematics</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-progress="40" id="math-progress"></div>
+                            </div>
+                            <span class="progress-value">40%</span>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-subject">
+                                <div class="subject-icon">
+                                    <i class="fas fa-globe-americas"></i>
+                                </div>
+                                <span class="subject-name">General Knowledge</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-progress="80" id="gk-progress"></div>
+                            </div>
+                            <span class="progress-value">80%</span>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-subject">
+                                <div class="subject-icon">
+                                    <i class="fas fa-flask"></i>
+                                </div>
+                                <span class="subject-name">Science</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-progress="25" id="science-progress"></div>
+                            </div>
+                            <span class="progress-value">25%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Recent Activity</h3>
+                    </div>
+                    <div class="activity-list" id="activity-list">
+                        <!-- Activity items will be added by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Level Progress -->
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <h3 class="card-title">Level Progress</h3>
+                    </div>
+                    <div class="level-container">
+                        <div class="level-info">
+                            <div class="level-current">
+                                <div class="level-label">Current Level</div>
+                                <div class="level-value">Lv. <span id="current-level">1</span></div>
+                            </div>
+                            <div class="level-next">
+                                <div class="level-label">Next Level</div>
+                                <div class="level-value">Lv. <span id="next-level">2</span></div>
+                            </div>
+                        </div>
+                        <div class="level-progress-bar">
+                            <div class="level-progress-fill" id="level-progress-fill"></div>
+                        </div>
+                        <div class="level-xp">
+                            <span id="current-level-xp">0</span> / <span id="next-level-xp">100</span> XP
+                        </div>
+                        <div class="level-reward">
+                            <i class="fas fa-gift"></i>
+                            <span>Next Reward: <strong>Advanced Badge</strong></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section class="subjects-section" id="subjects">
+        <div class="section-header">
+            <h2 class="section-title">Learning <span class="text-gradient">Subjects</span></h2>
+            <p class="section-subtitle">Choose a subject and start your gamified learning journey</p>
+        </div>
+        <div class="subjects-container">
+            <div class="subjects-grid">
+                <!-- Computer Science -->
+                <div class="subject-card" data-subject="cs">
+                    <div class="subject-card-header">
+                        <div class="subject-icon-large">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="subject-difficulty">
+                            <span class="difficulty-label">Difficulty</span>
+                            <div class="difficulty-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="subject-card-title">Computer Science</h3>
+                    <p class="subject-card-description">Master programming, algorithms, data structures, and computer science fundamentals through interactive challenges.</p>
+                    <div class="subject-stats">
+                        <div class="subject-stat">
+                            <div class="stat-count">15</div>
+                            <div class="stat-label">Levels</div>
+                        </div>
+                        <div class="subject-stat">
+                            <div class="stat-count">320</div>
+                            <div class="stat-label">Questions</div>
+                        </div>
+                        <div class="subject-stat">
+                            <div class="stat-count">5,000</div>
+                            <div class="stat-label">Max XP</div>
+                        </div>
+                    </div>
+                    <button class="subject-start-btn" data-subject="cs">
+                        <i class="fas fa-play"></i> Start Learning
+                    </button>
+                    <div class="subject-progress">
+                        <div class="progress-label">Your Progress</div>
+                        <div class="subject-progress-bar">
+                            <div class="subject-progress-fill" data-progress="65"></div>
+                        </div>
+                        <div class="progress-percentage">65%</div>
+                    </div>
+                </div>
+
+                <!-- Mathematics -->
+                <div class="subject-card" data-subject="math">
+                    <div class="subject-card-header">
+                        <div class="subject-icon-large">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="subject-difficulty">
+                            <span class="difficulty-label">Difficulty</span>
+                            <div class="difficulty-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="subject-card-title">Mathematics</h3>
+                    <p class="subject-card-description">Solve mathematical puzzles, equations, and problems. From algebra to calculus, level up your math skills.</p>
+                    <div class="subject-stats">
+                        <div class="subject-stat">
+                            <div class="stat-count">12</div>
+                            <div class="stat-label">Levels</div>
+                        </div>
+                        <div class="subject-stat">
+                            <div class="stat-count">280</div>
+                            <div class="stat-label">Questions</div>
+                        </div>
+                        <div class="subject-stat">
+                            <div class="stat-count">4,200</div>
+                            <div class="stat-label">Max XP</div>
+                        </div>
+                    </div>
+                    <button class="subject-start-btn" data-subject="math">
+                        <i class="fas fa-play"></i> Start Learning
+                    </button>
+                    <div class="subject-progress">
+                        <div class="progress-label">Your Progress</div>
+                        <div class="subject-progress-bar">
+                            <div class="subject-progress-fill" data-progress="40"></div>
+                        </div>
+                        <div class="progress-percentage">40%</div>
+                    </div>
+                </div>
+
+                <!-- General Knowledge -->
+                <div class="subject-card" data-subject="gk">
+                    <div class="subject-card-header">
+                        <div class="subject-icon-large">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <div class="subject-difficulty">
+                            <span class="difficulty-label">Difficulty</span>
+                            <div class="difficulty-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="subject-card-title">General Knowledge</h3>
+                    <p class="subject-card-description">Expand your knowledge about world history, geography, culture, and current affairs through trivia challenges.</p>
+                    <div class="subject-stats">
+                        <div class="subject-stat">
+                            <div class="stat-count">10</div>
+                            <div class="stat-label">Levels</div>
+                        </div>
+                        <div class="subject-stat">
+                            <div class="stat-count">250</div>
+                            <div class="stat-label">Questions</div>
+                        </div>
+                        <div class="subject-stat">
+                            <div class="stat-count">3,500</div>
+                            <div class="stat-label">Max XP</div>
+                        </div>
+                    </div>
+                    <button class="subject-start-btn" data-subject="gk">
+                        <i class="fas fa-play"></i> Start Learning
+                    </button>
+                    <div class="subject-progress">
+                        <div class="progress-label">Your Progress</div>
+                        <div class="subject-progress-bar">
+                            <div class="subject-progress-fill" data-progress="80"></div>
+                        </div>
+                        <div class="progress-percentage">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quiz Modal -->
+    <div class="quiz-modal" id="quiz-modal">
+        <div class="quiz-modal-content">
+            <div class="quiz-header">
+                <div class="quiz-subject-info">
+                    <h3 class="quiz-subject-title" id="quiz-subject-title">Computer Science</h3>
+                    <div class="quiz-level">Level <span id="quiz-level">1</span></div>
+                </div>
+                <div class="quiz-stats">
+                    <div class="quiz-stat">
+                        <span class="stat-label">Questions</span>
+                        <span class="stat-value" id="current-question">1</span>/<span id="total-questions">5</span>
+                    </div>
+                    <div class="quiz-stat">
+                        <span class="stat-label">Score</span>
+                        <span class="stat-value" id="quiz-score">0</span>
+                    </div>
+                    <div class="quiz-stat">
+                        <span class="stat-label">Time</span>
+                        <span class="stat-value" id="quiz-timer">60</span>s
+                    </div>
+                </div>
+                <button class="close-quiz-btn" id="close-quiz-btn">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="quiz-body">
+                <div class="quiz-question-container">
+                    <div class="question-text" id="question-text">
+                        What does HTML stand for?
+                    </div>
+                    <div class="question-type-badge" id="question-type">Multiple Choice</div>
+                </div>
+                <div class="quiz-options" id="quiz-options">
+                    <!-- Options will be populated by JavaScript -->
+                </div>
+                <div class="quiz-feedback" id="quiz-feedback">
+                    <div class="feedback-content" id="feedback-content"></div>
+                    <button class="next-question-btn" id="next-question-btn">Next Question <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="quiz-footer">
+                <div class="quiz-xp">
+                    <i class="fas fa-star"></i>
+                    <span>XP Earned: <strong id="xp-earned">0</strong></span>
+                </div>
+                <div class="quiz-progress-bar">
+                    <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaderboard Section -->
+    <section class="leaderboard-section" id="leaderboard">
+        <div class="section-header">
+            <h2 class="section-title">Global <span class="text-gradient">Leaderboard</span></h2>
+            <p class="section-subtitle">See how you rank among learners worldwide</p>
+        </div>
+        <div class="leaderboard-container">
+            <div class="leaderboard-header">
+                <div class="leaderboard-tabs">
+                    <button class="leaderboard-tab active" data-period="weekly">Weekly</button>
+                    <button class="leaderboard-tab" data-period="monthly">Monthly</button>
+                    <button class="leaderboard-tab" data-period="alltime">All Time</button>
+                </div>
+                <div class="leaderboard-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Search learners..." id="leaderboard-search">
+                </div>
+            </div>
+            <div class="leaderboard-table">
+                <div class="leaderboard-row header-row">
+                    <div class="rank-col">Rank</div>
+                    <div class="user-col">Learner</div>
+                    <div class="level-col">Level</div>
+                    <div class="xp-col">Total XP</div>
+                    <div class="streak-col">Streak</div>
+                    <div class="badges-col">Badges</div>
+                </div>
+                <div class="leaderboard-rows" id="leaderboard-rows">
+                    <!-- Leaderboard rows will be populated by JavaScript -->
+                </div>
+            </div>
+            <div class="leaderboard-user-position">
+                <div class="user-position-label">Your Position</div>
+                <div class="user-position-rank">#<span id="user-rank">15</span></div>
+                <div class="user-position-name" id="user-position-name">You</div>
+                <div class="user-position-xp"><span id="user-position-xp">1,250</span> XP</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements-section" id="achievements">
+        <div class="section-header">
+            <h2 class="section-title">Your <span class="text-gradient">Achievements</span></h2>
+            <p class="section-subtitle">Unlock badges and achievements by completing challenges</p>
+        </div>
+        <div class="achievements-container">
+            <div class="achievements-stats">
+                <div class="achievement-stat">
+                    <div class="achievement-stat-value" id="total-badges">0</div>
+                    <div class="achievement-stat-label">Badges Earned</div>
+                </div>
+                <div class="achievement-stat">
+                    <div class="achievement-stat-value" id="total-achievements">0</div>
+                    <div class="achievement-stat-label">Achievements Unlocked</div>
+                </div>
+                <div class="achievement-stat">
+                    <div class="achievement-stat-value" id="completion-rate">0%</div>
+                    <div class="achievement-stat-label">Completion Rate</div>
+                </div>
+            </div>
+            <div class="achievements-grid" id="achievements-grid">
+                <!-- Achievements will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <i class="fas fa-gamepad"></i>
+                    <span class="logo-text">Quest<span class="logo-highlight">Learn</span></span>
+                </div>
+                <p class="footer-description">Gamified Learning Platform that makes education an adventure.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-link-group">
+                    <h4 class="link-group-title">Platform</h4>
+                    <a href="#dashboard" class="footer-link">Dashboard</a>
+                    <a href="#subjects" class="footer-link">Subjects</a>
+                    <a href="#leaderboard" class="footer-link">Leaderboard</a>
+                    <a href="#achievements" class="footer-link">Achievements</a>
+                </div>
+                <div class="footer-link-group">
+                    <h4 class="link-group-title">Company</h4>
+                    <a href="#" class="footer-link">About Us</a>
+                    <a href="#" class="footer-link">Careers</a>
+                    <a href="#" class="footer-link">Blog</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </div>
+                <div class="footer-link-group">
+                    <h4 class="link-group-title">Support</h4>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">FAQ</a>
+                    <a href="#" class="footer-link">Community</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 QuestLearn. All rights reserved. Made with <i class="fas fa-heart"></i> for gamified education.</p>
+        </div>
+    </footer>
+
+    <!-- XP Gain Notification -->
+    <div class="xp-notification" id="xp-notification">
+        <div class="xp-notification-content">
+            <i class="fas fa-star"></i>
+            <div class="xp-notification-text">
+                <div class="xp-notification-title">+150 XP Earned!</div>
+                <div class="xp-notification-subtitle">Correct answer streak bonus</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Level Up Notification -->
+    <div class="level-up-modal" id="level-up-modal">
+        <div class="level-up-content">
+            <div class="level-up-icon">
+                <i class="fas fa-trophy"></i>
+            </div>
+            <h2 class="level-up-title">Level Up!</h2>
+            <div class="level-up-info">
+                You've reached <span class="level-up-new" id="new-level">5</span>
+            </div>
+            <p class="level-up-message">You've unlocked new challenges and rewards. Keep going!</p>
+            <button class="level-up-close-btn" id="level-up-close-btn">Continue Learning</button>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
