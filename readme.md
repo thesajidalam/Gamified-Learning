@@ -55,210 +55,78 @@
 | **🔥 Streak System** | Daily learning streaks with bonus rewards | Habit formation |
 | **⬆️ Level Progression** | 100+ levels with increasing difficulty | Long-term retention |
 
-### 📚 Learning Modules
-
-const subjects = {
-  computerScience: {
-    topics: ["Programming", "Algorithms", "Data Structures"],
-    format: "Interactive Challenges",
-    difficulty: "Adaptive"
-  },
-  mathematics: {
-    topics: ["Algebra", "Calculus", "Problem Solving"],
-    format: "Puzzle-Based",
-    difficulty: "Progressive"
-  },
-  generalKnowledge: {
-    topics: ["History", "Geography", "Current Affairs"],
-    format: "Trivia Challenges",
-    difficulty: "Varied"
-  }
-};
-<!-- Animated Divider --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <div align="center">
-|         Badge         | Criteria                         | XP Reward |   Rarity  |
-| :-------------------: | :------------------------------- | :-------: | :-------: |
-|   🥾 **First Steps**  | Complete your first quiz         |  +100 XP  |   Common  |
-|  ⚡ **Quick Learner**  | Answer 10 questions correctly    |  +250 XP  |  Uncommon |
-| 🎓 **Subject Master** | Complete 100% of any subject     |  +500 XP  |    Rare   |
-|  🔥 **Streak Keeper** | Maintain a 7-day learning streak |  +300 XP  |    Rare   |
-|  🏆 **Quiz Champion** | Score 100% on any quiz           |  +400 XP  |    Epic   |
-|   🌅 **Early Bird**   | Complete a quiz before 8 AM      |  +150 XP  |  Uncommon |
-|    🌙 **Night Owl**   | Complete a quiz after 10 PM      |  +150 XP  |  Uncommon |
-|  💎 **XP Collector**  | Earn 5000 total XP               |  +1000 XP | Legendary |
-</div>
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-Next.js 14 (App Router)
-├── React Server Components
-├── Server Actions
-└── Edge Runtime
-
-Tailwind CSS
-├── Custom Design System
-├── Responsive Grid
-└── Dark/Light Mode
-
-React Hooks
-├── useState (Local UI)
-├── useContext (Global State)
-└── Custom Gamification Hooks
-
-Vercel Platform
-├── Edge Network
-├── CI/CD Pipeline
-└── Analytics & Monitoring
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+Badge	Criteria	XP Reward	Rarity
+🥾 First Steps	Complete your first quiz	+100 XP	Common
+⚡ Quick Learner	Answer 10 questions correctly	+250 XP	Uncommon
+🎓 Subject Master	Complete 100% of any subject	+500 XP	Rare
+🔥 Streak Keeper	Maintain a 7-day learning streak	+300 XP	Rare
+🏆 Quiz Champion	Score 100% on any quiz	+400 XP	Epic
+🌅 Early Bird	Complete a quiz before 8 AM	+150 XP	Uncommon
+🌙 Night Owl	Complete a quiz after 10 PM	+150 XP	Uncommon
+💎 XP Collector	Earn 5000 total XP	+1000 XP	Legendary
+</div><!-- Animated Divider --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<!-- Animated Divider --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 flowchart TD
     A[🎯 ONBOARDING<br/>• Welcome animation<br/>• Skill assessment<br/>• Goal setting] --> B
-    
     B[📚 LEARNING PATH<br/>• Select subject<br/>• Choose difficulty<br/>• Start quest] --> C
-    
     C[⚔️ CHALLENGE MODE<br/>• Timed quizzes<br/>• Multiple choice<br/>• Streak bonuses] --> D
-    
     D[🎉 REWARD SYSTEM<br/>• XP gain<br/>• Badge unlock<br/>• Level up animation] --> E
-    
     E[📊 PROGRESS TRACKING<br/>• Stats dashboard<br/>• Leaderboard<br/>• Next goals]
-    
     E -.->|Continue Journey| B
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-🚀 Getting Started
-Prerequisites
-
-    Node.js 18+
-    npm/yarn/pnpm
-    Git
-
-Installation:
-
-bash
-
-# Clone the repository
-git clone https://github.com/thesajidalam/Gamified-Learning.git
-
-# Navigate to project
-cd Gamified-Learning
-
-# Install dependencies
-npm install
-
-# Configure environment
-cp .env.example .env.local
-
-# Run development server
-npm run dev
-
-# Build for production
-npm run build
-
-Environment Variables
-env
-Copy
-
-# .env.local
-NEXT_PUBLIC_APP_URL=https://gamifiedlearningweb.vercel.app
-DATABASE_URL=your_database_url
-NEXTAUTH_SECRET=your_secret_key
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-🎮 Live Platform Preview
-<div align="center">
+    <!-- Animated Divider --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+    <div align="center">
 🖥️ Visit QuestLearn Live
-<!-- Screenshot Placeholder - Replace with actual screenshot -->
 <img src="https://via.placeholder.com/800x400/1a1a2e/ffffff?text=QuestLearn+Interface+Preview" width="80%" alt="Platform Preview" style="border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.3);"/>
+
 Experience the future of education:
 
     ⚡ Real-time XP tracking
+
     🏅 Instant badge notifications
+
     📊 Live leaderboard updates
+
     🎨 Immersive UI animations
 
-</div>
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+</div><!-- Animated Divider --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 🗺️ Roadmap
 ✅ Completed
 
-    [x] Core gamification engine
-    [x] Three subject modules (CS, Math, GK)
-    [x] XP and leveling system
-    [x] Badge achievement system
-    [x] Responsive design
-    [x] Vercel deployment
+    Core gamification engine
+
+    Three subject modules (CS, Math, GK)
+
+    XP and leveling system
+
+    Badge achievement system
+
+    Responsive design
+
+    Vercel deployment
 
 🚧 In Progress
 
-    [ ] User authentication system
-    [ ] Persistent progress storage
-    [ ] Social features (friends, guilds)
-    [ ] Mobile app (React Native)
-    [ ] AI-powered adaptive difficulty
+    User authentication system
+
+    Persistent progress storage
+
+    Social features (friends, guilds)
+
+    Mobile app (React Native)
+
+    AI-powered adaptive difficulty
 
 🔮 Future Vision
 
-    [ ] AR/VR learning experiences
-    [ ] Blockchain credential verification
-    [ ] Multiplayer collaborative quests
-    [ ] Educator dashboard & analytics
-    [ ] Custom quiz creation tools
+    AR/VR learning experiences
 
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+    Blockchain credential verification
 
-🤝 Contributing
-We welcome contributions from the community! Whether you're fixing bugs, adding features, or improving documentation, your help makes QuestLearn better for everyone.
-bash
-Copy
+    Multiplayer collaborative quests
 
-# Fork the repo
-# Create your feature branch
-git checkout -b feature/AmazingFeature
+    Educator dashboard & analytics
 
-# Commit your changes
-git commit -m 'Add some AmazingFeature'
+    Custom quiz creation tools
 
-# Push to the branch
-git push origin feature/AmazingFeature
-
-# Open a Pull Request
-
-Contribution Guidelines
-
-    📝 Follow the existing code style
-    🧪 Test your changes thoroughly
-    📚 Update documentation as needed
-    🎯 Focus on user experience
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-📜 License
-Distributed under the MIT License. See LICENSE for more information.
-
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-👨‍💻 Creator
-<div align="center">
-<img src="https://avatars.githubusercontent.com/u/REPLACE_WITH_ACTUAL_ID?s=150" width="150" style="border-radius: 50%;" alt="Sajid Alam"/>
-
-https://github.com/thesajidalam
-https://linkedin.com/in/sajidalam
-https://sajidalam.dev
-Crafting digital experiences that educate, engage, and inspire.
-</div>
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-🌟 Acknowledgments
-
-    🎨 UI/UX inspiration from modern gaming interfaces
-    🧠 Gamification principles from behavioral psychology research
-    ⚡ Powered by Vercel Edge Network
-    💜 Built with passion for the future of education
-
-<!-- Animated Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Happy%20Learning!%20🎮📚&fontSize=40&fontAlignY=65" width="100%"/>
+<!-- Animated Divider --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
