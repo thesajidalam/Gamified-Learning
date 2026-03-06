@@ -113,34 +113,18 @@ Vercel Platform
 
 <!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-🎨 User Experience Flow
-
-
-┌─────────────────────────────────────────────────────────┐
-│  🎯 ONBOARDING                                          │
-│  • Welcome animation • Skill assessment • Goal setting  │
-└──────────────────┬──────────────────────────────────────┘
-                   ▼
-┌─────────────────────────────────────────────────────────┐
-│  📚 LEARNING PATH                                       │
-│  • Select subject • Choose difficulty • Start quest     │
-└──────────────────┬──────────────────────────────────────┘
-                   ▼
-┌─────────────────────────────────────────────────────────┐
-│  ⚔️ CHALLENGE MODE                                      │
-│  • Timed quizzes • Multiple choice • Streak bonuses     │
-└──────────────────┬──────────────────────────────────────┘
-                   ▼
-┌─────────────────────────────────────────────────────────┐
-│  🎉 REWARD SYSTEM                                       │
-│  • XP gain • Badge unlock • Level up animation          │
-└──────────────────┬──────────────────────────────────────┘
-                   ▼
-┌─────────────────────────────────────────────────────────┐
-│  📊 PROGRESS TRACKING                                   │
-│  • Stats dashboard • Leaderboard • Next goals           │
-└─────────────────────────────────────────────────────────┘
-
+flowchart TD
+    A[🎯 ONBOARDING<br/>• Welcome animation<br/>• Skill assessment<br/>• Goal setting] --> B
+    
+    B[📚 LEARNING PATH<br/>• Select subject<br/>• Choose difficulty<br/>• Start quest] --> C
+    
+    C[⚔️ CHALLENGE MODE<br/>• Timed quizzes<br/>• Multiple choice<br/>• Streak bonuses] --> D
+    
+    D[🎉 REWARD SYSTEM<br/>• XP gain<br/>• Badge unlock<br/>• Level up animation] --> E
+    
+    E[📊 PROGRESS TRACKING<br/>• Stats dashboard<br/>• Leaderboard<br/>• Next goals]
+    
+    E -.->|Continue Journey| B
 <!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 🚀 Getting Started
@@ -150,9 +134,9 @@ Prerequisites
     npm/yarn/pnpm
     Git
 
-Installation
-bash
+Installation:
 
+bash
 
 # Clone the repository
 git clone https://github.com/thesajidalam/Gamified-Learning.git
