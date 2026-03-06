@@ -77,7 +77,7 @@ flowchart TD
     <!-- Animated Divider --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
     <div align="center">
 🖥️ Visit QuestLearn Live
-<img src="https://via.placeholder.com/800x400/1a1a2e/ffffff?text=QuestLearn+Interface+Preview" width="80%" alt="Platform Preview" style="border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.3);"/>
+<img src="gamifiedlearningweb.vercel.app" width="80%" alt="Platform Preview" style="border-radius: 12px; box-shadow: 0 20px 50px rgba(0,0,0,0.3);"/>
 
 Experience the future of education:
 
@@ -127,6 +127,6 @@ Experience the future of education:
 
     Educator dashboard & analytics
 
-    Custom quiz creation tools
+    Custom quiz creation tools 
 
 <!-- Animated Divider --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
