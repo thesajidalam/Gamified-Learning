@@ -8,26 +8,26 @@
 
 &lt;!-- Dynamic Badges --&gt;
 &lt;p&gt;
- &lt;img src="https://img.shields.io/badge/Platform-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/&gt;
- &lt;img src="https://img.shields.io/badge/Framework-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/&gt;
- &lt;img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/&gt;
- &lt;img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/&gt;
- &lt;img src="https://img.shields.io/badge/Status-Live%20%F0%9F%9A%80-00C851?style=for-the-badge" alt="Live Status"/&gt;
+  &lt;img src="https://img.shields.io/badge/Platform-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/&gt;
+  &lt;img src="https://img.shields.io/badge/Framework-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/&gt;
+  &lt;img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/&gt;
+  &lt;img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/&gt;
+  &lt;img src="https://img.shields.io/badge/Status-Live%20%F0%9F%9A%80-00C851?style=for-the-badge" alt="Live Status"/&gt;
 &lt;/p&gt;
 
 &lt;!-- Live Demo Button --&gt;
 &lt;a href="https://gamifiedlearningweb.vercel.app" target="_blank"&gt;
- &lt;img src="https://img.shields.io/badge/🎮%20Live%20Demo-Experience%20Now-FF6B6B?style=for-the-badge&logoWidth=40" width="250" alt="Live Demo"/&gt;
+  &lt;img src="https://img.shields.io/badge/🎮%20Live%20Demo-Experience%20Now-FF6B6B?style=for-the-badge&logoWidth=40" width="250" alt="Live Demo"/&gt;
 &lt;/a&gt;
 
 &lt;!-- Social Links --&gt;
 &lt;p align="center"&gt;
- &lt;a href="https://github.com/thesajidalam/Gamified-Learning/stargazers"&gt;
-   &lt;img src="https://img.shields.io/github/stars/thesajidalam/Gamified-Learning?style=social" alt="Stars"/&gt;
- &lt;/a&gt;
- &lt;a href="https://github.com/thesajidalam/Gamified-Learning/network/members"&gt;
-   &lt;img src="https://img.shields.io/github/forks/thesajidalam/Gamified-Learning?style=social" alt="Forks"/&gt;
- &lt;/a&gt;
+  &lt;a href="https://github.com/thesajidalam/Gamified-Learning/stargazers"&gt;
+    &lt;img src="https://img.shields.io/github/stars/thesajidalam/Gamified-Learning?style=social" alt="Stars"/&gt;
+  &lt;/a&gt;
+  &lt;a href="https://github.com/thesajidalam/Gamified-Learning/network/members"&gt;
+    &lt;img src="https://img.shields.io/github/forks/thesajidalam/Gamified-Learning?style=social" alt="Forks"/&gt;
+  &lt;/a&gt;
 &lt;/p&gt;
 
 &lt;/div&gt;
@@ -57,23 +57,23 @@
 
 ### 📚 Learning Modules
 
-typescript
+`typescript
 const subjects = {
- computerScience: {
-   topics: ["Programming", "Algorithms", "Data Structures"],
-   format: "Interactive Challenges",
-   difficulty: "Adaptive"
- },
- mathematics: {
-   topics: ["Algebra", "Calculus", "Problem Solving"],
-   format: "Puzzle-Based",
-   difficulty: "Progressive"
- },
- generalKnowledge: {
-   topics: ["History", "Geography", "Current Affairs"],
-   format: "Trivia Challenges",
-   difficulty: "Varied"
- }
+  computerScience: {
+    topics: ["Programming", "Algorithms", "Data Structures"],
+    format: "Interactive Challenges",
+    difficulty: "Adaptive"
+  },
+  mathematics: {
+    topics: ["Algebra", "Calculus", "Problem Solving"],
+    format: "Puzzle-Based",
+    difficulty: "Progressive"
+  },
+  generalKnowledge: {
+    topics: ["History", "Geography", "Current Affairs"],
+    format: "Trivia Challenges",
+    difficulty: "Varied"
+  }
 };
 <div align="center">
 |         Badge         | Criteria                         | XP Reward |   Rarity  |
