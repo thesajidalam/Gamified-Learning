@@ -1,47 +1,47 @@
-<!-- README.md for QuestLearn - Gamified Learning Platform -->
-<!-- Crafted with precision for maximum impact -->
+&lt;!-- README.md for QuestLearn - Gamified Learning Platform --&gt;
+&lt;!-- Crafted with precision for maximum impact --&gt;
 
-<div align="center">
+&lt;div align="center"&gt;
 
-<!-- Animated Logo Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=QuestLearn&fontSize=90&fontAlignY=35&desc=Level%20Up%20Your%20Learning%20Journey&descAlignY=55&descSize=25&animation=fadeIn" width="100%" alt="QuestLearn Banner"/>
+&lt;!-- Animated Logo Banner --&gt;
+&lt;img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=QuestLearn&fontSize=90&fontAlignY=35&desc=Level%20Up%20Your%20Learning%20Journey&descAlignY=55&descSize=25&animation=fadeIn" width="100%" alt="QuestLearn Banner"/&gt;
 
-<!-- Dynamic Badges -->
-<p>
-  <img src="https://img.shields.io/badge/Platform-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
-  <img src="https://img.shields.io/badge/Framework-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Status-Live%20%F0%9F%9A%80-00C851?style=for-the-badge" alt="Live Status"/>
-</p>
+&lt;!-- Dynamic Badges --&gt;
+&lt;p&gt;
+ &lt;img src="https://img.shields.io/badge/Platform-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/&gt;
+ &lt;img src="https://img.shields.io/badge/Framework-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/&gt;
+ &lt;img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/&gt;
+ &lt;img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/&gt;
+ &lt;img src="https://img.shields.io/badge/Status-Live%20%F0%9F%9A%80-00C851?style=for-the-badge" alt="Live Status"/&gt;
+&lt;/p&gt;
 
-<!-- Live Demo Button -->
-<a href="https://gamifiedlearningweb.vercel.app" target="_blank">
-  <img src="https://img.shields.io/badge/🎮%20Live%20Demo-Experience%20Now-FF6B6B?style=for-the-badge&logoWidth=40" width="250" alt="Live Demo"/>
-</a>
+&lt;!-- Live Demo Button --&gt;
+&lt;a href="https://gamifiedlearningweb.vercel.app" target="_blank"&gt;
+ &lt;img src="https://img.shields.io/badge/🎮%20Live%20Demo-Experience%20Now-FF6B6B?style=for-the-badge&logoWidth=40" width="250" alt="Live Demo"/&gt;
+&lt;/a&gt;
 
-<!-- Social Links -->
-<p align="center">
-  <a href="https://github.com/thesajidalam/Gamified-Learning/stargazers">
-    <img src="https://img.shields.io/github/stars/thesajidalam/Gamified-Learning?style=social" alt="Stars"/>
-  </a>
-  <a href="https://github.com/thesajidalam/Gamified-Learning/network/members">
-    <img src="https://img.shields.io/github/forks/thesajidalam/Gamified-Learning?style=social" alt="Forks"/>
-  </a>
-</p>
+&lt;!-- Social Links --&gt;
+&lt;p align="center"&gt;
+ &lt;a href="https://github.com/thesajidalam/Gamified-Learning/stargazers"&gt;
+   &lt;img src="https://img.shields.io/github/stars/thesajidalam/Gamified-Learning?style=social" alt="Stars"/&gt;
+ &lt;/a&gt;
+ &lt;a href="https://github.com/thesajidalam/Gamified-Learning/network/members"&gt;
+   &lt;img src="https://img.shields.io/github/forks/thesajidalam/Gamified-Learning?style=social" alt="Forks"/&gt;
+ &lt;/a&gt;
+&lt;/p&gt;
 
-</div>
+&lt;/div&gt;
 
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+&lt;!-- Animated Divider --&gt;
+&lt;img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"&gt;
 
 ## 🎯 Mission Statement
 
-> **Transforming education from a chore into an adventure.**  
-> QuestLearn is a next-generation gamified learning platform that merges cognitive science with game design, creating an immersive educational experience where every lesson feels like a quest, every quiz feels like a boss battle, and knowledge is the ultimate loot.
+&gt; **Transforming education from a chore into an adventure.**  
+&gt; QuestLearn is a next-generation gamified learning platform that merges cognitive science with game design, creating an immersive educational experience where every lesson feels like a quest, every quiz feels like a boss battle, and knowledge is the ultimate loot.
 
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+&lt;!-- Animated Divider --&gt;
+&lt;img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"&gt;
 
 ## ✨ Feature Ecosystem
 
@@ -57,94 +57,64 @@
 
 ### 📚 Learning Modules
 
-```typescript
+typescript
 const subjects = {
-  computerScience: {
-    topics: ["Programming", "Algorithms", "Data Structures"],
-    format: "Interactive Challenges",
-    difficulty: "Adaptive"
-  },
-  mathematics: {
-    topics: ["Algebra", "Calculus", "Problem Solving"],
-    format: "Puzzle-Based",
-    difficulty: "Progressive"
-  },
-  generalKnowledge: {
-    topics: ["History", "Geography", "Current Affairs"],
-    format: "Trivia Challenges",
-    difficulty: "Varied"
-  }
+ computerScience: {
+   topics: ["Programming", "Algorithms", "Data Structures"],
+   format: "Interactive Challenges",
+   difficulty: "Adaptive"
+ },
+ mathematics: {
+   topics: ["Algebra", "Calculus", "Problem Solving"],
+   format: "Puzzle-Based",
+   difficulty: "Progressive"
+ },
+ generalKnowledge: {
+   topics: ["History", "Geography", "Current Affairs"],
+   format: "Trivia Challenges",
+   difficulty: "Varied"
+ }
 };
-🏆 Badge Collection System
 <div align="center">
-Table
-Badge	Criteria	XP Reward	Rarity
-🥾 First Steps	Complete your first quiz	+100 XP	Common
-⚡ Quick Learner	Answer 10 questions correctly	+250 XP	Uncommon
-🎓 Subject Master	Complete 100% of any subject	+500 XP	Rare
-🔥 Streak Keeper	Maintain a 7-day learning streak	+300 XP	Rare
-🏆 Quiz Champion	Score 100% on any quiz	+400 XP	Epic
-🌅 Early Bird	Complete a quiz before 8 AM	+150 XP	Uncommon
-🌙 Night Owl	Complete a quiz after 10 PM	+150 XP	Uncommon
-💎 XP Collector	Earn 5000 total XP	+1000 XP	Legendary
+|         Badge         | Criteria                         | XP Reward |   Rarity  |
+| :-------------------: | :------------------------------- | :-------: | :-------: |
+|   🥾 **First Steps**  | Complete your first quiz         |  +100 XP  |   Common  |
+|  ⚡ **Quick Learner**  | Answer 10 questions correctly    |  +250 XP  |  Uncommon |
+| 🎓 **Subject Master** | Complete 100% of any subject     |  +500 XP  |    Rare   |
+|  🔥 **Streak Keeper** | Maintain a 7-day learning streak |  +300 XP  |    Rare   |
+|  🏆 **Quiz Champion** | Score 100% on any quiz           |  +400 XP  |    Epic   |
+|   🌅 **Early Bird**   | Complete a quiz before 8 AM      |  +150 XP  |  Uncommon |
+|    🌙 **Night Owl**   | Complete a quiz after 10 PM      |  +150 XP  |  Uncommon |
+|  💎 **XP Collector**  | Earn 5000 total XP               |  +1000 XP | Legendary |
 </div>
 <!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-🛠️ Technology Architecture
-Frontend Stack
-plain
-Copy
-
 Next.js 14 (App Router)
 ├── React Server Components
 ├── Server Actions
 └── Edge Runtime
-
-Styling & UI
-plain
-Copy
 
 Tailwind CSS
 ├── Custom Design System
 ├── Responsive Grid
 └── Dark/Light Mode
 
-State Management
-plain
-Copy
-
 React Hooks
 ├── useState (Local UI)
 ├── useContext (Global State)
 └── Custom Gamification Hooks
 
-Deployment
-plain
-Copy
-
 Vercel Platform
 ├── Edge Network
 ├── CI/CD Pipeline
 └── Analytics & Monitoring
+<!-- Animated Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-📊 Platform Statistics
-<div align="center">
-<!-- Dynamic Stats Cards -->
-Table
-Metric	Value	Trend
-Questions Mastered	58,632+	📈 +12% weekly
-Active Learners	Growing	🚀 Viral
-Subject Areas	3 Core	📚 Expanding
-Achievement Badges	8 Unique	🏅 More Coming
-XP Distributed	2M+	💎 Daily
-</div>
-<!-- Animated Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 🎨 User Experience Flow
-plain
-Copy
+
 
 ┌─────────────────────────────────────────────────────────┐
 │  🎯 ONBOARDING                                          │
@@ -182,7 +152,7 @@ Prerequisites
 
 Installation
 bash
-Copy
+
 
 # Clone the repository
 git clone https://github.com/thesajidalam/Gamified-Learning.git
@@ -256,6 +226,7 @@ Experience the future of education:
 
 <!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
 🤝 Contributing
 We welcome contributions from the community! Whether you're fixing bugs, adding features, or improving documentation, your help makes QuestLearn better for everyone.
 bash
@@ -284,13 +255,13 @@ Contribution Guidelines
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 📜 License
 Distributed under the MIT License. See LICENSE for more information.
+
 <!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 👨‍💻 Creator
 <div align="center">
 <img src="https://avatars.githubusercontent.com/u/REPLACE_WITH_ACTUAL_ID?s=150" width="150" style="border-radius: 50%;" alt="Sajid Alam"/>
-Sajid Alam
-Full-Stack Developer & EdTech Innovator
+
 https://github.com/thesajidalam
 https://linkedin.com/in/sajidalam
 https://sajidalam.dev
@@ -313,30 +284,3 @@ gamified learning, education technology, e-learning platform,
 interactive quizzes, XP system, achievement badges, next.js education,
 vercel deployment, react learning app, educational games
 -->
-plain
-Copy
-
-
----
-
-## 📝 Notes for Implementation:
-
-1. **Replace placeholder content:**
-   - Update avatar URL in Creator section with your actual GitHub avatar
-   - Add actual screenshot of your platform in the Preview section
-   - Update social links (LinkedIn, Portfolio) with your actual URLs
-
-2. **To use this README:**
-   - Copy the entire content above
-   - Create/edit `README.md` in your repository root
-   - Paste and commit
-
-3. **Visual elements included:**
-   - Animated wave banners (header/footer)
-   - Gradient badges for tech stack
-   - ASCII art flow diagrams
-   - Responsive tables for features
-   - Code blocks with syntax highlighting
-   - Centered alignment for professional look
-
-This README is designed to be **visually stunning**, **information-dense**, and **recruiter-friendly** while showcasing your platform's gamification features, technical architecture, and live deployment status! 🚀
