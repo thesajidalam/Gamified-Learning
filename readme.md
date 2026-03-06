@@ -1,47 +1,47 @@
-&lt;!-- README.md for QuestLearn - Gamified Learning Platform --&gt;
-&lt;!-- Crafted with precision for maximum impact --&gt;
+<!-- README.md for QuestLearn - Gamified Learning Platform -->
+<!-- Crafted with precision for maximum impact -->
 
-&lt;div align="center"&gt;
+<div align="center">
 
-&lt;!-- Animated Logo Banner --&gt;
-&lt;img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=QuestLearn&fontSize=90&fontAlignY=35&desc=Level%20Up%20Your%20Learning%20Journey&descAlignY=55&descSize=25&animation=fadeIn" width="100%" alt="QuestLearn Banner"/&gt;
+<!-- Animated Logo Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=QuestLearn&fontSize=90&fontAlignY=35&desc=Level%20Up%20Your%20Learning%20Journey&descAlignY=55&descSize=25&animation=fadeIn" width="100%" alt="QuestLearn Banner"/>
 
-&lt;!-- Dynamic Badges --&gt;
-&lt;p&gt;
-  &lt;img src="https://img.shields.io/badge/Platform-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/&gt;
-  &lt;img src="https://img.shields.io/badge/Framework-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/&gt;
-  &lt;img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/&gt;
-  &lt;img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/&gt;
-  &lt;img src="https://img.shields.io/badge/Status-Live%20%F0%9F%9A%80-00C851?style=for-the-badge" alt="Live Status"/&gt;
-&lt;/p&gt;
+<!-- Dynamic Badges -->
+<p>
+  <img src="https://img.shields.io/badge/Platform-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
+  <img src="https://img.shields.io/badge/Framework-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Status-Live%20%F0%9F%9A%80-00C851?style=for-the-badge" alt="Live Status"/>
+</p>
 
-&lt;!-- Live Demo Button --&gt;
-&lt;a href="https://gamifiedlearningweb.vercel.app" target="_blank"&gt;
-  &lt;img src="https://img.shields.io/badge/🎮%20Live%20Demo-Experience%20Now-FF6B6B?style=for-the-badge&logoWidth=40" width="250" alt="Live Demo"/&gt;
-&lt;/a&gt;
+<!-- Live Demo Button -->
+<a href="https://gamifiedlearningweb.vercel.app" target="_blank">
+  <img src="https://img.shields.io/badge/🎮%20Live%20Demo-Experience%20Now-FF6B6B?style=for-the-badge&logoWidth=40" width="250" alt="Live Demo"/>
+</a>
 
-&lt;!-- Social Links --&gt;
-&lt;p align="center"&gt;
-  &lt;a href="https://github.com/thesajidalam/Gamified-Learning/stargazers"&gt;
-    &lt;img src="https://img.shields.io/github/stars/thesajidalam/Gamified-Learning?style=social" alt="Stars"/&gt;
-  &lt;/a&gt;
-  &lt;a href="https://github.com/thesajidalam/Gamified-Learning/network/members"&gt;
-    &lt;img src="https://img.shields.io/github/forks/thesajidalam/Gamified-Learning?style=social" alt="Forks"/&gt;
-  &lt;/a&gt;
-&lt;/p&gt;
+<!-- Social Links -->
+<p align="center">
+  <a href="https://github.com/thesajidalam/Gamified-Learning/stargazers">
+    <img src="https://img.shields.io/github/stars/thesajidalam/Gamified-Learning?style=social" alt="Stars"/>
+  </a>
+  <a href="https://github.com/thesajidalam/Gamified-Learning/network/members">
+    <img src="https://img.shields.io/github/forks/thesajidalam/Gamified-Learning?style=social" alt="Forks"/>
+  </a>
+</p>
 
-&lt;/div&gt;
+</div>
 
-&lt;!-- Animated Divider --&gt;
-&lt;img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"&gt;
+<!-- Animated Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🎯 Mission Statement
 
-&gt; **Transforming education from a chore into an adventure.**  
-&gt; QuestLearn is a next-generation gamified learning platform that merges cognitive science with game design, creating an immersive educational experience where every lesson feels like a quest, every quiz feels like a boss battle, and knowledge is the ultimate loot.
+> **Transforming education from a chore into an adventure.**  
+> QuestLearn is a next-generation gamified learning platform that merges cognitive science with game design, creating an immersive educational experience where every lesson feels like a quest, every quiz feels like a boss battle, and knowledge is the ultimate loot.
 
-&lt;!-- Animated Divider --&gt;
-&lt;img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"&gt;
+<!-- Animated Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## ✨ Feature Ecosystem
 
@@ -57,7 +57,6 @@
 
 ### 📚 Learning Modules
 
-`typescript
 const subjects = {
   computerScience: {
     topics: ["Programming", "Algorithms", "Data Structures"],
@@ -75,6 +74,7 @@ const subjects = {
     difficulty: "Varied"
   }
 };
+<!-- Animated Divider --><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 <div align="center">
 |         Badge         | Criteria                         | XP Reward |   Rarity  |
 | :-------------------: | :------------------------------- | :-------: | :-------: |
@@ -278,9 +278,3 @@ Crafting digital experiences that educate, engage, and inspire.
 
 <!-- Animated Footer -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Happy%20Learning!%20🎮📚&fontSize=40&fontAlignY=65" width="100%"/>
-<!-- Keywords for SEO -->
-<!--
-gamified learning, education technology, e-learning platform, 
-interactive quizzes, XP system, achievement badges, next.js education,
-vercel deployment, react learning app, educational games
--->
